@@ -1,196 +1,196 @@
-// var bunny = "paul"; 
-// let dog = "jack";
-// const cat = "naomi";
-// console.log(bunny);
-// console.log(dog);
-// console.log(cat);
+var bunny = "paul"; 
+let dog = "jack";
+const cat = "naomi";
+console.log(bunny);
+console.log(dog);
+console.log(cat);
 
-// 2
+2
 
-// 1bunny - invalid(bunny1);
-// _bunny - valid;
-// $bunny - valid;
-// -bunny - invalid(_bunny);
-// @bunny - invalid(bunny);
-// bunnyName - valid;
+1bunny - invalid(bunny1);
+_bunny - valid;
+$bunny - valid;
+-bunny - invalid(_bunny);
+@bunny - invalid(bunny);
+bunnyName - valid;
 
-// 3
+3
 
-// console.log(pet);
-// var pet = 'lucy';
-// prints undefined
+console.log(pet);
+var pet = 'lucy';
+prints undefined
 
-// console.log(animal);
-// throws ReferenceError: cannot access 'animal' before initialization
+console.log(animal);
+throws ReferenceError: cannot access 'animal' before initialization
 
-// let animal = 'tom';
+let animal = 'tom';
 
-// Explanation: var variables are hoisted and initialized to undefined allowing them to be accessed 
-// before the declaration line. in contrast, let variable are hoisted into the temporal dead zone (TDZ)
-// without being initialized which triggers a ReferenceError when accessed before declaration;
-
-
-// 4
-// var cat = "naomi";
-// function animalName (){
-//     let dog = "jack";
-//     console.log(dog);
-//     console.log(cat);
-// }
-
-// animalName();
-
-// 5
-
-// const bunny = {
-//     name: "paul",
-//     age: 2,
-//     isHappy: true,
-// };
-
-// console.log(bunny);
-
-// 6
-
-// console.log(3.14 + " is a " + typeof(3.14));
-// console.log("lucy" + " is a " + typeof("lucy"));
-// console.log(true + " is a " + typeof(true));
-// console.log(null + " is a " + typeof(null));
-// console.log(undefined + " is a " + typeof(undefined));
-// console.log(Symbol('lucy'),   " is a " + typeof(Symbol('lucy')));
-// console.log({name: 'lucy'},  " is a " + typeof({name: 'lucy'}));
-// console.log(['Lucy', 'Tom'],  " is a " + typeof(['Lucy', 'Tom']));
+Explanation: var variables are hoisted and initialized to undefined allowing them to be accessed 
+before the declaration line. in contrast, let variable are hoisted into the temporal dead zone (TDZ)
+without being initialized which triggers a ReferenceError when accessed before declaration;
 
 
-// 7
+4
+var cat = "naomi";
+function animalName (){
+    let dog = "jack";
+    console.log(dog);
+    console.log(cat);
+}
 
-// let mixedDataTypes = ['naomi', 19, true, null, undefined, {name: "destiny", age: 23}];
-// console.log(mixedDataTypes);
-// console.log(mixedDataTypes.length);
+animalName();
 
-// 8
+5
 
-// function sumBunnies (){
-//     let blackBunnies = 10;
-//     let whiteBunnies = 20;
-//     let totalBunnies = blackBunnies + whiteBunnies;
-//     return totalBunnies; 
+const bunny = {
+    name: "paul",
+    age: 2,
+    isHappy: true,
+};
 
-// }
+console.log(bunny);
 
-// console.log(sumBunnies());
+6
 
-// 9
-
-//  function sumBunnies(blackBunnies, whiteBunnies) {
-//     let totalBunnies = blackBunnies + whiteBunnies;
-//     return totalBunnies;
-// }
-
-// console.log(sumBunnies(10, 20));
-// console.log(sumBunnies(7, 3));
-
-// 10
-
-// const sumBunnies = function(blackBunnies, whiteBunnies){
-//     let totalBunnies = blackBunnies + whiteBunnies;
-//     return totalBunnies;
-// }
-
-// console.log(sumBunnies(10, 20));
-// console.log(sumBunnies(7, 3));
-
-// const sumBunnies = (blackBunnies, whiteBunnies) => blackBunnies + whiteBunnies;
+console.log(3.14 + " is a " + typeof(3.14));
+console.log("lucy" + " is a " + typeof("lucy"));
+console.log(true + " is a " + typeof(true));
+console.log(null + " is a " + typeof(null));
+console.log(undefined + " is a " + typeof(undefined));
+console.log(Symbol('lucy'),   " is a " + typeof(Symbol('lucy')));
+console.log({name: 'lucy'},  " is a " + typeof({name: 'lucy'}));
+console.log(['Lucy', 'Tom'],  " is a " + typeof(['Lucy', 'Tom']));
 
 
-// console.log(sumBunnies(10, 20));
-// console.log(sumBunnies(7, 3));
+7
+
+let mixedDataTypes = ['naomi', 19, true, null, undefined, {name: "destiny", age: 23}];
+console.log(mixedDataTypes);
+console.log(mixedDataTypes.length);
+
+8
+
+function sumBunnies (){
+    let blackBunnies = 10;
+    let whiteBunnies = 20;
+    let totalBunnies = blackBunnies + whiteBunnies;
+    return totalBunnies; 
+
+}
+
+console.log(sumBunnies());
+
+9
+
+ function sumBunnies(blackBunnies, whiteBunnies) {
+    let totalBunnies = blackBunnies + whiteBunnies;
+    return totalBunnies;
+}
+
+console.log(sumBunnies(10, 20));
+console.log(sumBunnies(7, 3));
+
+10
+
+const sumBunnies = function(blackBunnies, whiteBunnies){
+    let totalBunnies = blackBunnies + whiteBunnies;
+    return totalBunnies;
+}
+
+console.log(sumBunnies(10, 20));
+console.log(sumBunnies(7, 3));
+
+const sumBunnies = (blackBunnies, whiteBunnies) => blackBunnies + whiteBunnies;
+
+
+console.log(sumBunnies(10, 20));
+console.log(sumBunnies(7, 3));
 
 11
-// (function() {
-//     const blackBunnies = 10;
-//     const whiteBunnies = 20;
-//     const total = blackBunnies + whiteBunnies;
-//     console.log(total);
-// })();
+(function() {
+    const blackBunnies = 10;
+    const whiteBunnies = 20;
+    const total = blackBunnies + whiteBunnies;
+    console.log(total);
+})();
 
-// 12
-// let bunnies = ['lucy', 'bugs', 'thumper', 'lola', 'peter', 'snowball'];
-// bunnies.push('mario');
-// bunnies.unshift('luigi');
-// bunnies = bunnies.filter(bunny => bunny !== 'lucy');
+12
+let bunnies = ['lucy', 'bugs', 'thumper', 'lola', 'peter', 'snowball'];
+bunnies.push('mario');
+bunnies.unshift('luigi');
+bunnies = bunnies.filter(bunny => bunny !== 'lucy');
 
-// console.log(bunnies);
+console.log(bunnies);
 
-// 13
+13
 
-// const bunnies = ['lucy', 'tom', 'molly', 'bella'];
-// console.log(bunnies[0]);
-// console.log(bunnies[bunnies.length -1 ]);
-// console.log(bunnies.indexOf('tom'));
+const bunnies = ['lucy', 'tom', 'molly', 'bella'];
+console.log(bunnies[0]);
+console.log(bunnies[bunnies.length -1 ]);
+console.log(bunnies.indexOf('tom'));
 
-// const bunniesCopy = [...bunnies];
-// console.log(bunniesCopy);
+const bunniesCopy = [...bunnies];
+console.log(bunniesCopy);
 
-// 14 
+14 
 
-// for (let i = 0; 1 < bunnies.length; i++){
-//     console.log(`Bunny ${bunnies[i]} is scheduled for a checkup today`);
-// }
+for (let i = 0; 1 < bunnies.length; i++){
+    console.log(`Bunny ${bunnies[i]} is scheduled for a checkup today`);
+}
 
-// 15
+15
 
-// const nestedArrays = [
-//     [ 'lucy', 'tom'],
-//     ['molly', 'bella'],
-// ];
+const nestedArrays = [
+    [ 'lucy', 'tom'],
+    ['molly', 'bella'],
+];
 
-// console.log(nestedArrays[0][0]);
-// console.log(nestedArrays[1][1]);
+console.log(nestedArrays[0][0]);
+console.log(nestedArrays[1][1]);
 
-// for (let i = 0; 1 < nestedArrays.length; i++) {
-//     for (let j = 0; j < nestedArrays[i].length; j++){
-//         console.log(nestedArrays[i][j]);
-//     }
-// }
+for (let i = 0; 1 < nestedArrays.length; i++) {
+    for (let j = 0; j < nestedArrays[i].length; j++){
+        console.log(nestedArrays[i][j]);
+    }
+}
 
-// 16
+16
 
-// let bunny = {name: "paul", age: 2, isHappy: true}
-// const bunnyJSON = JSON.stringify(bunny);
-// console.log(bunnyJSON);
+let bunny = {name: "paul", age: 2, isHappy: true}
+const bunnyJSON = JSON.stringify(bunny);
+console.log(bunnyJSON);
 
-// 17
+17
 
-// let bunnyJSON = '{"name":"lucy","age":3,"isHappy":true}';
-// const bunny = JSON.parse(bunnyJSON);
+let bunnyJSON = '{"name":"lucy","age":3,"isHappy":true}';
+const bunny = JSON.parse(bunnyJSON);
 
-// console.log(bunny.name);
-// console.log(bunny.age);
+console.log(bunny.name);
+console.log(bunny.age);
 
-// 18
+18
 
-// let bunny_age = 3;
-// let dog_age = '3';
-// console.log(bunny_age == dog_age);
-// console.log(bunny_age === dog_age);
-// console.log(bunny_age != dog_age);
-// console.log(bunny_age !== dog_age);
+let bunny_age = 3;
+let dog_age = '3';
+console.log(bunny_age == dog_age);
+console.log(bunny_age === dog_age);
+console.log(bunny_age != dog_age);
+console.log(bunny_age !== dog_age);
 
-// The == operator compares two values for equality after
-// converting them to a common typeof(loose equality), 
-// where as === compares both the value and the data types 
-// without conversion (strict equality)
+The == operator compares two values for equality after
+converting them to a common typeof(loose equality), 
+where as === compares both the value and the data types 
+without conversion (strict equality)
 
-// 19
+19
 
-// const bunnies = ['lucy', 'tom', 'molly', 'bella'];
+const bunnies = ['lucy', 'tom', 'molly', 'bella'];
 
-// const dogs = ['jack', 'naomi',];
+const dogs = ['jack', 'naomi',];
 
-// if (bunnies <= dogs ){
-//     console.log("There are more dogs than bunnies")
-// } else { console.log("There are more bunnies than dogs")}
+if (bunnies <= dogs ){
+    console.log("There are more dogs than bunnies")
+} else { console.log("There are more bunnies than dogs")}
 
 20
 
